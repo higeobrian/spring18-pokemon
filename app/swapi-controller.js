@@ -1,8 +1,5 @@
-console.log(3);
 function SwapiController() {
-  console.log(6);
-  var swService = new SwapiService();
-  console.log(8);
+var swService = new SwapiService();
   //private
 
   function drawPeople(people) {

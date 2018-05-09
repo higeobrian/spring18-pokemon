@@ -1,6 +1,6 @@
 function RacesController(){
   //private
-  var dndService = new DndService()
+  var dndService = new DndService();
 
   function drawRaces(arr) {
     var template = "<ul>";
@@ -24,7 +24,6 @@ function RacesController(){
   }
 
   this.getDetails = function getDetails(url){
-    debugger
     dndService.getDetails(url, drawDetails)
   }
 
